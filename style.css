@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#main_canvas {
+    left: 100px;
+    position: absolute;
+    image-rendering: optimizeSpeed;           
+    image-rendering: -moz-crisp-edges;         
+    image-rendering: -webkit-optimize-contrast; 
+    image-rendering: -o-crisp-edges;            
+    image-rendering: crisp-edges;              
+    -ms-interpolation-mode: nearest-neighbor;   
+    border: solid black 3px;
+}
+
+#control_menu {
+    float: left;
+    width: 100px;
+    
+}
+
+input {
+    width: 100px;
+}
